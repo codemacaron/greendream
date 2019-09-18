@@ -3,7 +3,6 @@
     .header-area
       h1.logo
         a(href="#")
-          em 선한영향력
           strong Green Dream
       button.menu(type="button" @click="showPopup('open')")
     .menu-popup(v-show="popup")
